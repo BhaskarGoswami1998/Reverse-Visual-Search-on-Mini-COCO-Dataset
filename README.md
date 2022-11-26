@@ -1,0 +1,2 @@
+This is the Assignment for Reseverse Visual Search for the Mini COCO Dataset for the class labeled person. We are using the Fast RCNN with ResNet50 backbone to get the bounding boxes of all the persons in the 13K images for mini coco dataset. After that we document them all along with the image details and bounding box details in the form of a JSON.
+After that, we look into 5 random bounding boxes and try to find the 10 most similar bounding boxes that are not part of the same image as a part of this project.
