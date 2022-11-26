@@ -8,6 +8,7 @@ The type of queries you will test your system on are MS COCO dataset images.
 
 4.1
 We look into the COCO Dataset and look at all the images that have atleast one label of a person. We make a list of all the image names that have such labels and copy those images to a seperate folder names "train 2017 person". This folder was uploaded into Google Drive and used in the assignment.
+
 4.2
 We use a pretrained Faster RCNN with ResNet50 Backbone to get the bounding boxes of all the objects as detections and keep only those that have a lable 1 : "Person".
 We keep the bounding box details (Top Left X, Top Left Y, Width and Height) along with image name, label, probability of that bounding box having a person.
