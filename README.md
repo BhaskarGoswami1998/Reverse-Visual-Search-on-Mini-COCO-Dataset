@@ -15,6 +15,7 @@ We keep the bounding box details (Top Left X, Top Left Y, Width and Height) alon
 4.3
 To create the feature vectors of the bounding boxes we employ the following approach.
 We iterate through the previously defined dataframe that has all the person bounding boxes and then preprocess them as we would an image which is being used as an input to the pretrained Faster RCNN. Then we use the transform function along with the backbone function. We extract the "pool" layer of the output feature vector, it contains the feature vector that we will be using to compare two images and comment about the magnitude of similarity between two images.
+
 4.4
 For the final question of the assignment we select 5 random bounding boxes( from the previously created dataset).
 We iterate through the entire dataset and look at all the images that donot have the bounding box as a part and then compare their cosine similarity. We print the images and bounding box information of the 10 similar bounding box to each of the 5 randomly chosen ones.
