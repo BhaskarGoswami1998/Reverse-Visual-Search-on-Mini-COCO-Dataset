@@ -21,7 +21,6 @@ We iterate through the previously defined dataframe that has all the person boun
 For the final question of the assignment we select 5 random bounding boxes( from the previously created dataset).
 We iterate through the entire dataset and look at all the images that donot have the bounding box as a part and then compare their cosine similarity. We print the images and bounding box information of the 10 similar bounding box to each of the 5 randomly chosen ones.
 
+Query images and corresponding results in RevVisualSearch_CS_634 Bhaskar Goswami ipynb file along with all required code.
+
 This completes the Reverse Image Search Assignment for CS 634 007 NJIT.
-
-
-
